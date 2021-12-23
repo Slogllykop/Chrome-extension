@@ -1,0 +1,55 @@
+:root {
+    --accent: #3464eb;
+}
+
+body {
+    min-width: 400px;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--accent);
+    margin-bottom: 4px;
+}
+
+button {
+    background-color: var(--accent);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid var(--accent);
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button#delete-btn {
+    background: transparent;
+    color: var(--accent);
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+li {
+    color: var(--accent);
+}
+
+li > a {
+    text-decoration: none;
+}
+
+img {
+    width: 16px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
